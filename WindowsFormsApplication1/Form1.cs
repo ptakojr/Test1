@@ -12,6 +12,7 @@ namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
+        public int MyProperty { get; set; }
         public Form1()
         {
             InitializeComponent();
